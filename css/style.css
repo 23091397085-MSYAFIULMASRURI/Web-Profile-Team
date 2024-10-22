@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 25px 30px;
+    
+}
+
+.navbar h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: #007bff;
+}
+
+/*hero*/
+
+.hero {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 300px 20px;
+}
+
+.hero h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+
+.hero p {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+/*team section*/
+
+.team {
+    padding: 250px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.member {
+    background-color: #f4f4f4;
+    margin: 15px;
+    width: 250px;
+    height: 0 auto;
+    border-radius: 20px;   
+    border: 2px solid #f4f4f4;
+    transition: 0.4s ease-in-out;
+}
+
+.member:hover {
+    transform: scale(1.1);
+    border: 2px solid #007bff;
+    
+}
+
+.member img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.content-member {
+    padding: 10px;
+}
+
+.member h3 {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.member h3:hover {
+    color: #007bff;
+}
+
+.member p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+/*contact*/
+.contact {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/*footer*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+

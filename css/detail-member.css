@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 25px 30px;
+    
+}
+
+.navbar h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: #007bff;
+}
+
+/*syafiul detail*/
+.syafiul-card {
+    padding: 250px 100px;
+}
+
+
+.content-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content-profile img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.text-profile h2 {
+    line-height: 2;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.text-profile h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.text-profile a {
+    text-decoration: none;
+}
+
+.text-profile .logo-unesa {
+    margin: 0 5px 0 0;
+    border: none;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.text-profile p {
+    line-height: 2;
+    font-style: italic;
+}
+
+.content-experience {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+
+
+/*contact*/
+.contact {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/*footer*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
