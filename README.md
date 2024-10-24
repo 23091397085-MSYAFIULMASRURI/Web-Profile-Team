@@ -1,6 +1,6 @@
 Web Profile Team
 
-Ini adalah proyek landing page untuk profil tim sederhana yang menampilkan informasi tiga anggota tim beserta navbar. Halaman web ini dibuat menggunakan HTML, CSS, dan JavaScript.
+Ini adalah proyek landing page untuk profil tim sederhana yang menampilkan informasi tiga anggota tim. Halaman web ini dibuat menggunakan HTML, CSS, dan JavaScript.
 
 Cara Melihat Halaman Web
 Untuk melihat halaman web yang telah dibuat, Anda dapat mengunjungi langsung melalui link GitHub Pages berikut:
