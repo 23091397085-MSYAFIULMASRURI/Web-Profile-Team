@@ -6,7 +6,7 @@ Cara Melihat Halaman Web
 Untuk melihat halaman web yang telah dibuat, Anda dapat mengunjungi langsung melalui link GitHub Pages berikut:
 
 https://23091397085-msyafiulmasruri.github.io/Web-Profile-Team/
-
+ 
 Cara Menjalankan Secara Lokal
 
 1. Clone Repository
