@@ -11,7 +11,7 @@ Cara Menjalankan Secara Lokal
 
 1. Clone Repository
 Jalankan perintah berikut di terminal atau command prompt untuk meng-clone repositori:
-- git clone https://github.com/23091397085-msyafiulmasruri/Web-Profile-Team.git
+- [ git clone https://github.com/23091397085-msyafiulmasruri/Web-Profile-Team.git ]
 
 2. Buka di Browser
 Setelah meng-clone repository, buka file index.html di browser dengan cara:
