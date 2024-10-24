@@ -5,18 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team Profile</title>
     <link rel="stylesheet" href="css/style.css" />
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--navbar-->
     <header>
       <nav class="navbar">
-        <h1>K5 PEMWEB</h1>
+        <a href="#" class="navbar-logo"> K5 PEMWEB</a>
 
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="navbar-nav">
+          <a href="#">Home</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar-extra">
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-search"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </a>
+          <a href="#" id="hamburger-menu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-menu"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </a>
+        </div>
       </nav>
     </header>
     <!--navbar-->
@@ -35,44 +81,79 @@
         <!--member 1-->
         <a href="detail-member1.html">
           <div class="member">
-          <img src="img/syafiul.jpg" alt="syafiul" />
-          <div class="content-member">
-            <h3>M. Syafi'ul Masruri</h3>
-            <p>Front End Developer</p>
+            <img src="img/syafiul.jpg" alt="syafiul" />
+            <div class="content-member">
+              <h3>M. Syafi'ul Masruri</h3>
+              <p>Front End Developer</p>
+            </div>
           </div>
-        </div>
         </a>
         <!--member 2-->
         <a href="detail-member2.html">
           <div class="member">
-          <img src="img/raditya.jpg" alt="raditya" />
-          <div class="content-member">
-            <h3>Raditya Bani Ainur Ridho</h3>
-            <p>Content Creator</p>
+            <img src="img/raditya.jpg" alt="raditya" />
+            <div class="content-member">
+              <h3>Raditya Bani Ainur Ridho</h3>
+              <p>Content Creator</p>
+            </div>
           </div>
-        </div>
         </a>
         <!--member 3-->
         <a href="detail-member3.html">
           <div class="member">
-          <img src="img/atika.jpg" alt="atika" />
-          <div class="content-member">
-            <h3>Atika Haniifatun Nisa'</h3>
-            <p>Designer</p>
+            <img src="img/atika.jpg" alt="atika" />
+            <div class="content-member">
+              <h3>Atika Haniifatun Nisa'</h3>
+              <p>Content Creator</p>
+            </div>
           </div>
-        </div>
-      </div>
         </a>
+      </div>
     </section>
     <!--team section-->
 
     <!--contact section-->
     <section id="contact" class="contact">
       <h2>Contact Us</h2>
-      <p>
-        Email us at:
-        <a href="mailto:msyafiulmasruri@gmail.com">msyafiulmasruri@gmail.com</a>
-      </p>
+      <div class="contact-icon">
+        <a href="https://www.instagram.com/class.mi23c/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-instagram"
+          >
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+        <a href="mailto:m.23085@mhs.unesa.ac.id">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-mail"
+          >
+            <path
+              d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+            ></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
     </section>
     <!--contact section-->
 
@@ -81,5 +162,6 @@
       <p>&copy; Copyright 2024 K5 PEMWEB</p>
     </footer>
     <!--footer-->
+    <script src="js/script.js"></script>
   </body>
 </html>
