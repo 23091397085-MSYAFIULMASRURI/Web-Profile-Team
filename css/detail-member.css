@@ -193,7 +193,7 @@ footer p {
 
 /* tablet */
 
-@media (max-width: 758px) {
+@media (max-width: 768px) {
   html {
     font-size: 63%;
   }
