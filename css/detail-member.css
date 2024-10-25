@@ -251,17 +251,4 @@ footer p {
     font-size: 55%;
   }
 
-  .content-profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .content-profile img {
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
-  }
 }
