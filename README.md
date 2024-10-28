@@ -1,7 +1,7 @@
 <h1>K5 PEMWEB - <i>Website Team Profile </i></h1>
 
 <h2>Deskripsi</h2>
-<p>Lorem</p>
+<p>Web team profile yang menampilkan informasi tentang anggota tim dalam sebuah organisasi, proyek, atau perusahaan</p>
 
 <h2>Struktur Website</h2>
 <p>Struktur pada web kita terdiri dari 2 halaman</p>
