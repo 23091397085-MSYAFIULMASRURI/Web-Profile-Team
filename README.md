@@ -69,6 +69,6 @@
   <li><strong>Tipografi & Color :</strong></li>
   <ul>
     <li>Font Poppins, sans-serif</li>
-    <li>color: #012851;</li>
+    <li><style>color: #012851;</style></li>
   </ul>
 </ol>
