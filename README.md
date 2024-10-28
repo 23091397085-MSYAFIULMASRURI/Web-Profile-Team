@@ -95,7 +95,9 @@
 <h2>Software Requirements Specification (SRS)</h2>
 
 <ol>
+  <br>
   <li><strong>Pendahuluan</strong></li>
+  <br>
   <ul>
     <li>Tujuan : Menyediakan informasi tentang anggota tim secara jelas dan menarik.</li>
     <li>Ruang Lingkup : Halaman utama, detail anggota tim, dan bagian kontak.</li>
