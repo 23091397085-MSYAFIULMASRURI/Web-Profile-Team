@@ -66,14 +66,18 @@
 <h2>Style CSS</h2>
 
 <ol>
+  <br>
   <li><strong>Tipografi & Color :</strong></li>
+  <br>
   <ul>
     <li>Font Poppins, sans-serif</li>
     <li>Primary Color #012851</li>
     <li>Secondary Color #121212</li>
     <li>Background Color #ffff</li>
   </ul>
+  <br>
   <li><strong>Pseudo Styling :</strong></li>
+  <br>
   <ul>
     <li>Hover Font</li>
     <li>Hover Cards</li>
