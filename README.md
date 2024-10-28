@@ -126,10 +126,15 @@
     <li>Halaman detail anggota.</li>
     <li>Bagian kontak.</li>
     </ul>
-    
   </ul>
+  <br>
   <ul>
     <li>Non-Fungsional :</li>
-    
+    <ul>
+      <li>Responsif di berbagai perangkat.</li>
+      <li> Mematuhi standar aksesibilitas.</li>
+      <li>Waktu muat < 3 detik.</li>
+      <li>Kode terdokumentasi dengan baik.</li>
+    </ul>
   </ul>
 </ol>
