@@ -14,9 +14,18 @@
     <li>Hero Section</li>
     <li>Team Section</li>
     <ul>
-      <li></li>
+      <li>Cards Member :</li>
+      <ul>
+        <li>Member Image</li>
+        <li>Nama Member</li>
+        <li>Peran</li>
+      </ul>
     </ul>
-    <li>Contact Section</li>
+    <li>Contact Section :</li>
+    <ul>
+      <li>Instagram Icon</li>
+      <li>Mail Icon</li>
+    </ul>
     <li>Footer</li>
   </ul>
 
@@ -27,11 +36,11 @@
     <li>Navbar Section</li>
     <li>Member Section :</li>
     <ul>
-      <li>Nama Anggota</li>
+      <li>Nama Member</li>
       <li>Jurusan</li>
       <li>Asal Universitas</li>
       <li>Asal Daerah</li>
-      <li>Latar Belakang Anggota</li>
+      <li>Latar Belakang Member/li>
       <li>Detail Pengalaman & Foto</li>
       <li>Detail Proyek, Sertifikasi & Foto</li>
   </ul>
