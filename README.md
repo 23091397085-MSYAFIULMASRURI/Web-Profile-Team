@@ -1,5 +1,7 @@
 <h1>K5 PEMWEB</h1>
 
+<h2>Deskripsi</h2>
+
 Ini adalah proyek landing page untuk profil tim sederhana yang menampilkan informasi tiga anggota tim. Halaman web ini dibuat menggunakan HTML, CSS, dan JavaScript.
 
 Cara Melihat Halaman Web
