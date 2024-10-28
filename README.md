@@ -119,6 +119,17 @@
   <li><strong>Persyaratan</strong></li>
   <br>
   <ul>
-    <li></li>
+    <li>Fungsional :</li>
+    <ul>
+    <li>Halaman utama dengan ringkasan tim.</li>
+    <li>Daftar anggota tim.</li>
+    <li>Halaman detail anggota.</li>
+    <li>Bagian kontak.</li>
+    </ul>
+    
+  </ul>
+  <ul>
+    <li>Non-Fungsional :</li>
+    
   </ul>
 </ol>
