@@ -102,4 +102,16 @@
     <li>Tujuan : Menyediakan informasi tentang anggota tim secara jelas dan menarik.</li>
     <li>Ruang Lingkup : Halaman utama, detail anggota tim, dan bagian kontak.</li>
   </ul>
+
+  <br>
+  <li><strong>Deskripsi Umum</strong></li>
+  <br>
+  <ul>
+    <li>Fungsi Produk :</li>
+    <ul>
+      <li>Menampilkan informasi anggota tim (nama, foto, jabatan).</li>
+      <li>Halaman detail untuk masing-masing anggota.</li>
+      <li>Kontak melalui email dan media sosial.</li>
+    </ul>
+  </ul>
 </ol>
