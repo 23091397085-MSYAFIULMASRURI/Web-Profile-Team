@@ -3,7 +3,7 @@
 <h2>Deskripsi</h2>
 <p>Web team profile yang menampilkan informasi tentang anggota tim dalam sebuah organisasi, proyek, atau perusahaan</p>
 
-https://23091397085-msyafiulmasruri.github.io/Web-Profile-Team/
+[https://23091397085-msyafiulmasruri.github.io/Web-Profile-Team/]
 
 <h2>Struktur HTML Website</h2>
 <p>Struktur pada web kita terdiri dari 2 halaman :</p>
