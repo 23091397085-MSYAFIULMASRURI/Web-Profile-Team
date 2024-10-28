@@ -22,8 +22,7 @@
   <strong
     ><li>
       detail-member1.html, detail-member2.html, detail-member3.html
-    </li></strong
-  >
+    </li></strong>
   <br>
   <ul>
     <li>Navbar Section</li>
