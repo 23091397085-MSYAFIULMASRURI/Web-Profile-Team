@@ -67,7 +67,7 @@
 
 <ol>
   <br>
-  <li><strong>Tipografi & Color :</strong></li>
+  <li><strong>Tipografi & Color</strong></li>
   <br>
   <ul>
     <li>Font Poppins, sans-serif</li>
@@ -76,13 +76,13 @@
     <li>Background Color #ffff</li>
   </ul>
   <br>
-  <li><strong>Pseudo Class Styling :</strong></li>
+  <li><strong>Pseudo Class Styling</strong></li>
   <br>
   <ul>
     <li>Hover Font, Cards, Button</li>
   </ul>
   <br>
-  <li><strong>DOM :</strong></li>
+  <li><strong>DOM</strong></li>
   <br>
   <ul>
     <li>Navbar</li>
