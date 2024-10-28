@@ -61,5 +61,14 @@
     </ul>
     <li>Footer</li>
   </ul>
+</ol>
 
+<h2>Style CSS</h2>
+
+<ol>
+  <li><strong>Tipografi & Color :</strong></li>
+  <ul>
+    <li>Font Poppins, sans-serif</li>
+    <li>color: #012851;</li>
+  </ul>
 </ol>
