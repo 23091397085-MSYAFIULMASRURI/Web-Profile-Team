@@ -76,11 +76,17 @@
     <li>Background Color #ffff</li>
   </ul>
   <br>
-  <li><strong>Pseudo Styling :</strong></li>
+  <li><strong>Pseudo Class Styling :</strong></li>
   <br>
   <ul>
-    <li>Hover Font</li>
-    <li>Hover Cards</li>
-    <li>Hover Button</li>
+    <li>Hover Font, Cards, Button</li>
+  </ul>
+  <br>
+  <li><strong>DOM :</strong></li>
+  <br>
+  <ul>
+    <li>Navbar</li>
+    <li>Hamburger Menu</li>
+    <li>Class Active</li>
   </ul>
 </ol>
