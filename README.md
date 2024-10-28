@@ -3,7 +3,7 @@
 <h2>Deskripsi</h2>
 <p>Web team profile yang menampilkan informasi tentang anggota tim dalam sebuah organisasi, proyek, atau perusahaan</p>
 
-<a href="https://23091397085-msyafiulmasruri.github.io/Web-Profile-Team/">
+<a href="https://23091397085-msyafiulmasruri.github.io/Web-Profile-Team/" style="cursor: pointer;">
 <h3>Website Profile Team</h3>
 </a>
 
