@@ -90,3 +90,14 @@
     <li>Class Active</li>
   </ul>
 </ol>
+
+
+<h2>Software Requirements Specification (SRS)</h2>
+
+<ol>
+  <li><strong>Pendahuluan</strong></li>
+  <ul>
+    <li>Tujuan : Menyediakan informasi tentang anggota tim secara jelas dan menarik.</li>
+    <li>Ruang Lingkup : Halaman utama, detail anggota tim, dan bagian kontak.</li>
+  </ul>
+</ol>
