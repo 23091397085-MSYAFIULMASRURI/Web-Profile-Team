@@ -116,6 +116,9 @@
   </ul>
 
   <br>
-  <li><strong>Deskripsi Umum</strong></li>
+  <li><strong>Persyaratan</strong></li>
   <br>
+  <ul>
+    <li></li>
+  </ul>
 </ol>
