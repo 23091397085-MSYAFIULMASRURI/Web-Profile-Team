@@ -73,4 +73,10 @@
     <li>Secondary Color #121212</li>
     <li>Background Color #ffff</li>
   </ul>
+  <li><strong>Pseudo Styling :</strong></li>
+  <ul>
+    <li>Hover Font</li>
+    <li>Hover Cards</li>
+    <li>Hover Button</li>
+  </ul>
 </ol>
