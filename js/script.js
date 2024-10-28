@@ -1,4 +1,4 @@
-const navbarNav = document.querySelector(".navbar-nav");
+const navbarNav = document.querySelector(".navbar-nav ul");
 
 // ketika hamburger menu diklik
 document.querySelector("#hamburger-menu").onclick = () => {

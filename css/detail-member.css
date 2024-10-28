@@ -32,41 +32,49 @@ body {
   text-decoration: none;
 }
 
-.navbar .navbar-logo {
-  font-size: 25px;
+.navbar-logo {
   color: white;
+  font-size: 25px;
   font-weight: 600;
 }
 
-.navbar .navbar-nav {
-  margin-right: 120px;
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
   font-size: 17px;
   font-weight: 600;
 }
 
-.navbar .navbar-nav a {
-  display: inline-block;
+.navbar-nav a {
+  display: flex;
+}
+
+.navbar-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav ul a {
+  color: white;
   margin-left: 20px;
-  color: white;
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
-.navbar .navbar-nav a:hover {
-  color: #012851;
-}
-
-.navbar .navbar-extra a {
-  color: white;
-  margin: 0 10px;
-  transition: 0.3s ease-in-out;
-}
-
-.navbar .navbar-extra a:hover {
+.navbar-nav ul a:hover {
   color: #012851;
 }
 
 #hamburger-menu {
   display: none;
+  margin-left: 30px;
+  color: white;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+#hamburger-menu:hover {
+  color: #012851;
 }
 
 /*syafiul detail*/
@@ -125,13 +133,14 @@ body {
 }
 
 .content-experience {
-  margin-top: 30px;
+  margin: 30px 0 30px;
   text-align: justify;
 }
 
 .cta-back {
   display: flex;
   justify-content: flex-end;
+  margin: 30px;
 }
 
 .cta-back a {
@@ -202,7 +211,8 @@ footer p {
     display: inline-block;
   }
 
-  .navbar .navbar-nav {
+  .navbar ul {
+    display: inline-block;
     margin-right: 0;
     position: absolute;
     top: 100%;
@@ -213,17 +223,16 @@ footer p {
     transition: 0.3s ease-in-out;
   }
 
-  .navbar .navbar-nav.active {
+  .navbar ul.active {
     right: 0;
   }
 
-  .navbar .navbar-nav a {
-    display: block;
-    margin: 24px;
+  .navbar ul a {
+    margin-bottom: 10px;
   }
 
-  .navbar .navbar-nav a:hover {
-    transform: translatex(10px);
+  .navbar ul a:hover {
+    transform: translateX(10px);
   }
 
   .content-profile {
@@ -240,6 +249,42 @@ footer p {
     object-fit: cover;
   }
 
+  .content-posisi {
+    text-align: center;
+  }
+
+  .posisi ul {
+    list-style-type: none;
+    margin: 0 !important;
+  }
+
+  .content-proyek {
+    text-align: center;
+  }
+
+  .proyek ul {
+    list-style-type: none;
+    margin: 0 !important;
+  }
+
+  .content-posisi iframe {
+    width: 160px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .content-posisi img {
+    width: 160px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .content-proyek img {
+    width: 160px;
+    height: 70px;
+    object-fit: cover;
+  }
+
   .cta-back {
     justify-content: center;
   }
@@ -250,5 +295,4 @@ footer p {
   html {
     font-size: 55%;
   }
-
 }

@@ -32,41 +32,49 @@ body {
   text-decoration: none;
 }
 
-.navbar .navbar-logo {
-  font-size: 25px;
+.navbar-logo {
   color: white;
+  font-size: 25px;
   font-weight: 600;
 }
 
-.navbar .navbar-nav {
-  margin-right: 120px;
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
   font-size: 17px;
   font-weight: 600;
 }
 
-.navbar .navbar-nav a {
-  display: inline-block;
+.navbar-nav a {
+  display: flex;
+}
+
+.navbar-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav ul a {
+  color: white;
   margin-left: 20px;
-  color: white;
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
-.navbar .navbar-nav a:hover {
-  color: #012851;
-}
-
-.navbar .navbar-extra a {
-  color: white;
-  margin: 0 10px;
-  transition: 0.3s ease-in-out;
-}
-
-.navbar .navbar-extra a:hover {
+.navbar-nav ul a:hover {
   color: #012851;
 }
 
 #hamburger-menu {
   display: none;
+  margin-left: 30px;
+  color: white;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+#hamburger-menu:hover {
+  color: #012851;
 }
 
 /*hero*/
@@ -174,7 +182,7 @@ body {
 }
 
 .contact a {
-  margin: 10px;
+  margin: 20px 10px;
   color: white;
   font-weight: 600;
   text-decoration: none;
@@ -193,7 +201,24 @@ footer {
   padding: 25px 0;
 }
 
+footer ul {
+  margin: 40px;
+  font-size: 13px;
+}
+
+footer ul a {
+  color: white;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  margin: 5px;
+}
+
+footer ul a:hover {
+  color: #012851;
+}
+
 footer p {
+  font-size: 12px;
   margin: 0;
 }
 
@@ -204,11 +229,12 @@ footer p {
     font-size: 63%;
   }
 
-  #hamburger-menu {
-    display: inline-block;
+ #hamburger-menu {
+  display: inline-block;
   }
 
-  .navbar .navbar-nav {
+   .navbar ul {
+    display: inline-block;
     margin-right: 0;
     position: absolute;
     top: 100%;
@@ -219,16 +245,24 @@ footer p {
     transition: 0.3s ease-in-out;
   }
 
-  .navbar .navbar-nav.active {
+  .navbar ul.active {
     right: 0;
   }
 
-  .navbar .navbar-nav a {
-    display: block;
-    margin: 24px;
+  .navbar ul a {
+    margin-bottom: 10px;
   }
 
-  .navbar .navbar-nav a:hover {
-    transform: translatex(10px);
+  .navbar ul a:hover {
+    transform: translateX(10px);
   }
+
+}
+
+/* hp */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+
 }
