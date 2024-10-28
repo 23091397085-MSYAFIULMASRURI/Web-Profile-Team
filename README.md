@@ -1,9 +1,9 @@
-<h1>K5 PEMWEB - <i>Website Team Profile </i></h1>
+<h1>K5 PEMWEB - <i>Website Profile Team </i></h1>
 
 <h2>Deskripsi</h2>
 <p>Web team profile yang menampilkan informasi tentang anggota tim dalam sebuah organisasi, proyek, atau perusahaan</p>
 
-[https://23091397085-msyafiulmasruri.github.io/Web-Profile-Team/]
+<a href="https://23091397085-msyafiulmasruri.github.io/Web-Profile-Team/">Web Profile Team</a>
 
 <h2>Struktur HTML Website</h2>
 <p>Struktur pada web kita terdiri dari 2 halaman :</p>
