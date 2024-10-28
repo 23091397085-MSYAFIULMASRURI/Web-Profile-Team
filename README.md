@@ -1,4 +1,4 @@
-Web Profile Team
+<h1>K5 PEMWEB</h1>
 
 Ini adalah proyek landing page untuk profil tim sederhana yang menampilkan informasi tiga anggota tim. Halaman web ini dibuat menggunakan HTML, CSS, dan JavaScript.
 
