@@ -109,7 +109,7 @@
   <ul>
     <li>Fungsi Produk :</li>
     <ul>
-      <li>Menampilkan informasi anggota tim (nama, foto, jabatan).</li>
+      <li>Menampilkan informasi anggota tim (nama, foto, asal, latar belakang, posisi).</li>
       <li>Halaman detail untuk masing-masing anggota.</li>
       <li>Kontak melalui email dan media sosial.</li>
     </ul>
