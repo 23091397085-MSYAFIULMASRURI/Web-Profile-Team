@@ -11,6 +11,11 @@
   <br />
   <ul>
     <li>Navbar Section</li>
+    <ul>
+      <li>Logo Website</li>
+      <li>Menu Navbar</li>
+      <li>Hamburger Menu</li>
+    </ul>
     <li>Hero Section</li>
     <li>Team Section</li>
     <ul>
@@ -34,6 +39,11 @@
   <br>
   <ul>
     <li>Navbar Section</li>
+    <ul>
+      <li>Logo Website</li>
+      <li>Menu Navbar</li>
+      <li>Hamburger Menu</li>
+    </ul>
     <li>Member Section :</li>
     <ul>
       <li>Nama Member</li>
