@@ -26,6 +26,14 @@
   <br>
   <ul>
     <li>Navbar Section</li>
-    <li>Detail Member Section</li>
+    <li>Member Section :</li>
+    <ul>
+      <li>Nama Anggota</li>
+      <li>Jurusan</li>
+      <li>Asal Universitas</li>
+      <li>Asal Daerah</li>
+      <li>Latar Belakang Anggota</li>
+      <li>Detail Pengalaman & Foto</li>
+      <li>Detail Proyek, Sertifikasi & Foto</li>
   </ul>
 </ol>
