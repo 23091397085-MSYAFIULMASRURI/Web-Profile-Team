@@ -114,4 +114,8 @@
       <li>Kontak melalui email dan media sosial.</li>
     </ul>
   </ul>
+
+  <br>
+  <li><strong>Deskripsi Umum</strong></li>
+  <br>
 </ol>
