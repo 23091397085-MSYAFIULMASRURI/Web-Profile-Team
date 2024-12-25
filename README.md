@@ -83,7 +83,7 @@
       <li>Jurusan</li>
       <li>Asal Universitas</li>
       <li>Asal Daerah</li>
-      <li>Latar Belakang Member/li>
+      <li>Latar Belakang Member</li>
       <li>Detail Pengalaman & Foto</li>
       <li>Detail Proyek, Sertifikasi & Foto</li>
   </ul>
