@@ -3,6 +3,7 @@
 <h2>Deskripsi</h2>
 <p>Web team profile yang menampilkan informasi tentang beberapa anggota team dari nama, pendidikan, asal, latar belakang singkat, dan pengalaman proyek yang pernah ditempuh</p>
 
+<p><strong><italic>Versi Static</italic></strong></p>
 <a href="https://23091397085-msyafiulmasruri.github.io/Web-Profile-Team/">Web Team Profile</a>
 
 <h2>Struktur Website</h2>
@@ -123,6 +124,61 @@
   </ul>
 </ol>
 
+<h1>Database</h1>
+    <ul>
+        <li><strong>Nama Database:</strong> <code>team_profile</code></li>
+        <li><strong>Tabel:</strong> <code>team_members</code></li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>role</th>
+                <th>photo_url</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>M. Syafi'ul Masruri</td>
+                <td>Front End Developer</td>
+                <td>img/syafiul.jpg</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Raditya Bani Ainur Ridho</td>
+                <td>Content Creator</td>
+                <td>img/raditya.jpg</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Atika Haniifatun Nisa'</td>
+                <td>Content Creator</td>
+                <td>img/atika.jpg</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Setup Database</h2>
+    <pre><code>CREATE DATABASE team_profile;</code></pre>
+    <pre><code>CREATE TABLE team_members (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    role VARCHAR(255) NOT NULL,
+    photo_url VARCHAR(255) NOT NULL
+);</code></pre>
+ <pre><code>INSERT INTO team_members (name, role, photo_url) VALUES
+('M. Syafi\'ul Masruri', 'Front End Developer', 'img/syafiul.jpg'),
+('Raditya Bani Ainur Ridho', 'Content Creator', 'img/raditya.jpg'),
+('Atika Haniifatun Nisa\'', 'Content Creator', 'img/atika.jpg');</code></pre>
+
+<h1>Teknologi yang Digunakan</h1>
+    <ul>
+        <li>Frontend: HTML5, CSS3, JavaScript</li>
+        <li>Backend: PHP</li>
+        <li>Database: MySQL</li>
+        <li>Tools: XAMPP, Visual Studio Code</li>
+    </ul>
 
 <h2>Software Requirements Specification (SRS)</h2>
 
