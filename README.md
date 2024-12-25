@@ -1,64 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Profile README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #0056b3;
-        }
-        code {
-            background: #e8e8e8;
-            padding: 2px 4px;
-            border-radius: 4px;
-            font-family: monospace;
-        }
-        pre {
-            background: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        table th, table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        table th {
-            background-color: #f2f2f2;
-        }
-        ul {
-            list-style: square;
-        }
-    </style>
-</head>
-<body>
-    <h1>K5 PEMWEB - Website Profile Team</h1>
+<h1>K5 PEMWEB - Website Profile Team</h1>
     <h2>Deskripsi</h2>
     <p>Website ini adalah sebuah profil tim yang menampilkan informasi tentang anggota tim, termasuk nama, peran, latar belakang singkat, dan pengalaman mereka. Website ini juga menggunakan PHP untuk menghubungkan ke database, sehingga data anggota tim dapat dikelola secara dinamis.</p>
-
     <h2>Fitur Utama</h2>
     <ul>
         <li><strong>Halaman Utama:</strong> Menampilkan hero section dengan pesan selamat datang, daftar anggota tim, dan bagian kontak.</li>
         <li><strong>Halaman Detail Anggota:</strong> Informasi mendalam tentang anggota tim (opsional).</li>
         <li><strong>Responsivitas:</strong> Desain yang responsif untuk berbagai perangkat.</li>
     </ul>
-
     <h2>Struktur Website</h2>
     <h3>1. File HTML/PHP</h3>
     <ul>
@@ -100,7 +48,6 @@
             </tr>
         </tbody>
     </table>
-
     <h2>Cara Menjalankan Proyek</h2>
     <h3>1. Persiapan Lingkungan</h3>
     <p>Pastikan Anda memiliki server lokal seperti XAMPP atau WAMP.</p>
@@ -119,7 +66,6 @@ INSERT INTO team_members (name, role, photo_url) VALUES
 ('Raditya Bani Ainur Ridho', 'Content Creator', 'img/raditya.jpg'),
 ('Atika Haniifatun Nisa\'', 'Content Creator', 'img/atika.jpg');
 </code></pre>
-
     <h3>3. Konfigurasi Koneksi Database</h3>
     <pre><code>&lt;?php
 $servername = "localhost";
@@ -133,10 +79,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?&gt;</code></pre>
-
     <h3>4. Menjalankan Proyek</h3>
     <p>Simpan file di folder <code>htdocs</code> dan akses melalui browser di alamat <code>http://localhost/nama-folder/index.php</code>.</p>
-
     <h2>Teknologi yang Digunakan</h2>
     <ul>
         <li>Frontend: HTML5, CSS3</li>
@@ -144,8 +88,5 @@ if ($conn->connect_error) {
         <li>Database: MySQL</li>
         <li>Tools: XAMPP/WAMP, Visual Studio Code</li>
     </ul>
-
     <h2>Lisensi</h2>
     <p>Proyek ini dilisensikan di bawah <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
-</body>
-</html>
