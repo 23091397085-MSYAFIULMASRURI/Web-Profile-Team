@@ -88,5 +88,49 @@ if ($conn->connect_error) {
         <li>Database: MySQL</li>
         <li>Tools: XAMPP/WAMP, Visual Studio Code</li>
     </ul>
-    <h2>Lisensi</h2>
-    <p>Proyek ini dilisensikan di bawah <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
+    <h2>Software Requirements Specification (SRS)</h2>
+
+<ol>
+  <br>
+  <li><strong>Pendahuluan</strong></li>
+  <br>
+  <ul>
+    <li>Tujuan : Menyediakan informasi tentang anggota tim secara jelas dan menarik.</li>
+    <li>Ruang Lingkup : Halaman utama, detail anggota tim, dan bagian kontak.</li>
+  </ul>
+
+  <br>
+  <li><strong>Deskripsi Umum</strong></li>
+  <br>
+  <ul>
+    <li>Fungsi Produk :</li>
+    <ul>
+      <li>Menampilkan informasi anggota tim (nama, foto, asal, latar belakang, posisi).</li>
+      <li>Halaman detail untuk masing-masing anggota.</li>
+      <li>Kontak melalui email dan media sosial.</li>
+    </ul>
+  </ul>
+
+  <br>
+  <li><strong>Persyaratan</strong></li>
+  <br>
+  <ul>
+    <li>Fungsional :</li>
+    <ul>
+    <li>Halaman utama dengan ringkasan tim.</li>
+    <li>Daftar anggota tim.</li>
+    <li>Halaman detail anggota.</li>
+    <li>Bagian kontak.</li>
+    </ul>
+  </ul>
+  <br>
+  <ul>
+    <li>Non-Fungsional :</li>
+    <ul>
+      <li>Responsif di berbagai perangkat.</li>
+      <li> Mematuhi standar aksesibilitas.</li>
+      <li>Waktu muat < 3 detik.</li>
+      <li>Kode terdokumentasi dengan baik.</li>
+    </ul>
+  </ul>
+</ol>
