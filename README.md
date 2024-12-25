@@ -10,6 +10,7 @@
 
 <ol>
   <li><strong><code>index.php</code></strong></li>
+</br>
   <ul>
     <li>Navbar Section</li>
     <ul>
