@@ -3,49 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Profile README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #0056b3;
-        }
-        code {
-            background: #e8e8e8;
-            padding: 2px 4px;
-            border-radius: 4px;
-            font-family: monospace;
-        }
-        pre {
-            background: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        table th, table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        table th {
-            background-color: #f2f2f2;
-        }
-        ul {
-            list-style: square;
-        }
-    </style>
 </head>
 <body>
     <h1>K5 PEMWEB - Website Profile Team</h1>
